@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: antlopez <antlopez@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 21:23:42 by antlopez          #+#    #+#             */
-/*   Updated: 2022/12/03 21:23:43 by antlopez         ###   ########.fr       */
+/*   Created: 2022/12/03 22:29:31 by antlopez          #+#    #+#             */
+/*   Updated: 2022/12/03 22:29:33 by antlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memchr(const void *s, int c, size_t n)
+ char	*ft_strchr(const char *s, int c)
  {
-	unsigned char	*str;
-	size_t			i;
+	int	i;
 
-	str = (unsigned char *)s;
 	i = 0;
-	while(i < n)
+	while(s[i])
 	{
-		if (str[i] == (unsigned char)c)
-			return ((void *)(s + i));
+		if (s[i] == c)
+			return ((char *)&s[i]);
 		i++;
 	}
+	if (c == 0)
+		return ((char *)&s[i]);
 	return (0);
  }
 
@@ -32,14 +32,9 @@ void	*ft_memchr(const void *s, int c, size_t n)
 // {
 // 	const char s1[] = "Hello World ?";
 // 	char s2 = 'o';
-// 	char s3 = 'l';
-// 	char *sol;
-// 	sol = ft_memchr(s1, s2, 12);
-// 	printf("%s\n", sol);
-// 	sol = ft_memchr(s1, s3, 12);
-// 	printf("%s\n", sol);
-// 	sol = memchr(s1, s2, 12);
-// 	printf("%s\n", sol);
-// 	sol = memchr(s1, s3, 12);
-// 	printf("%s\n", sol);
+// 	char s3 = '\0';
+// 	printf("%s\n", ft_strchr(s1, s2));
+// 	printf("%s\n", ft_strchr(s1, s3));
+// 	printf("%s\n", strchr(s1, s2));
+// 	printf("%s\n", strchr(s1, s3));
 // }
