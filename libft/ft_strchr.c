@@ -19,22 +19,25 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 			return ((char *)&s[i]);
 		i++;
 	}
-	if (c == 0)
+	if ((char)c == 0)
 		return ((char *)&s[i]);
 	return (0);
 }
 
 // int main(void)
 // {
-// 	const char s1[] = "Hello World ?";
+// 	const char *s1 = "Hello World ?";
 // 	char s2 = 'l';
 // 	char s3 = '\0';
-// 	printf("%s\n", ft_strchr(s1, s2));
+// 	char s[] = "tripouille";
+// 	printf("%s\n", ft_strchr(s1, s2 + 256));
 // 	printf("%s\n", ft_strchr(s1, s3));
-// 	printf("%s\n", strchr(s1, s2));
+// 	printf("%s\n", ft_strchr(s, 't' + 256));
+// 	printf("%s\n", strchr(s1, s2 + 256));
 // 	printf("%s\n", strchr(s1, s3));
+// 	printf("%s\n", strchr(s, 't' + 256));
 // }
