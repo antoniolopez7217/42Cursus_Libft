@@ -21,10 +21,10 @@ char	*ft_strrchr(const char *s, int c)
 	while (s[len])
 		len++;
 	i = len;
-	while (i - 1 >= 0)
+	while (i > 0)
 	{
-		if (s[i] == c)
-			return ((char *)&s[i]);
+		if (s[i - 1] == c)
+			return ((char *)&s[i - 1]);
 		i--;
 	}
 	if (c == 0)
@@ -34,11 +34,11 @@ char	*ft_strrchr(const char *s, int c)
 
 // int main(void)
 // {
-	// const char s1[] = "Hello World ?";
-	// char s2 = 'o';
-	// char s3 = '\0';
-	// printf("%s\n", ft_strrchr(s1, s2));
-	// printf("%s\n", ft_strrchr(s1, s3));
-	// printf("%s\n", strrchr(s1, s2));
-	// printf("%s\n", strrchr(s1, s3));
+// 	const char s1[] = "abbbbbbbb";
+// 	char s2 = 'a';
+// 	char s3 = 'b';
+// 	printf("%s\n", ft_strrchr(s1, s2));
+// 	printf("%s\n", ft_strrchr(s1, s3));
+// 	printf("%s\n", strrchr(s1, s2));
+// 	printf("%s\n", strrchr(s1, s3));
 // }

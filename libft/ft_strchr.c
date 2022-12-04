@@ -31,7 +31,7 @@ char	*ft_strchr(const char *s, int c)
 // int main(void)
 // {
 // 	const char s1[] = "Hello World ?";
-// 	char s2 = 'o';
+// 	char s2 = 'l';
 // 	char s3 = '\0';
 // 	printf("%s\n", ft_strchr(s1, s2));
 // 	printf("%s\n", ft_strchr(s1, s3));

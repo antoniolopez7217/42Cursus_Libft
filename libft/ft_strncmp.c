@@ -16,31 +16,27 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
+	if (n == 0)
+		return (0);
 	i = 0;
-	while ((s1[i] || s2[i]) && (i < n))
+	while (s1[i] && s2[i] && (s1[i] == s2[i]))
 	{
-		if (s1[i] == '\0')
-			return ((s2[i]) * (-1));
-		if (s2[i] == '\0')
-			return (s1[i]);
-		if ((s1[i] > s2[i]) || (s1[i] < s2[i]))
-			return (s1[i] - s2[i]);
-		i++;
+		if (i < (n - 1))
+			i++;
+		else
+			return (0);
 	}
-	return (0);
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
 
 // int main(void)
 // {
-// 	char s1[] = "ld9";
-// 	char s2[] = "Hel9lo Zorld";
+// 	char s1[] = "\x12\xff\x65\x12\xbd\xde\xad";
+// 	char s2[] = "\x12\x02";
 // 	char s3[] = "ello Wor6ld";
-// 	printf("%d\n", ft_strncmp(s1, s2, 9));
 // 	printf("%d\n", ft_strncmp(s1, s2, 6));
 // 	printf("%d\n", ft_strncmp(s2, s1, 6));
 // 	printf("%d\n\n", ft_strncmp(s3, s1, 6));
-
-// 	printf("%d\n", strncmp(s1, s2, 9));
 // 	printf("%d\n", strncmp(s1, s2, 6));
 // 	printf("%d\n", strncmp(s2, s1, 6));
 // 	printf("%d\n", strncmp(s3, s1, 6));
