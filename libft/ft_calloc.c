@@ -16,7 +16,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*array;
 
-	array = malloc(nmemb * size); 
+	array = malloc(nmemb * size);
 	if (array == NULL)
 		return (0);
 	ft_bzero(array, (nmemb * size));

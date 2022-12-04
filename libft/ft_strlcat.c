@@ -40,7 +40,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 // 	const char src[] = "World";
 // 	char dst[20] = "Hello ";
 // 	char dst2[20] = "Hello";
-
 // 	printf("len= %ld\n", ft_strlcat(dst, src, 20));
 // 	printf("src= %s\ndst= %s\n", src, dst);
 // 	printf("len= %u\n", strlcat(dst2, src, 20));

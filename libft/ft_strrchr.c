@@ -18,10 +18,10 @@ char	*ft_strrchr(const char *s, int c)
 	int	len;
 
 	len = 0;
-	while(s[len])
+	while (s[len])
 		len++;
 	i = len;
-	while(i - 1 >= 0)
+	while (i - 1 >= 0)
 	{
 		if (s[i] == c)
 			return ((char *)&s[i]);
