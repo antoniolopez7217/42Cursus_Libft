@@ -51,6 +51,6 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_itoa(int n);
 //
 //
-void	ft_putchar_fd(char c, int fd);
+//void	ft_putchar_fd(char c, int fd);
 
 #endif
