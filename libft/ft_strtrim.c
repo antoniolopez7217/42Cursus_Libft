@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include "ft_strlen.c"
-//#include "ft_substr.c"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
@@ -20,17 +18,17 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 
 	start = 0;
-	while (s1[start] && (s1[start] == set))
+	while (s1[start] && ft_strchr(set, s1[start]))
 		start++;
 	end = ft_strlen(s1);
-	while ((end > start) && (s1[end] == set))
+	while ((end > start) && ft_strchr(set, s1[end]))
 		end--;
 	return (ft_substr(s1, start, end - start + 1));
 }
 
 // int	main(void)
 // {
-// 	char s1[] = "aaaa1234aaaa";
+// 	char s1[] = "aaaaa1234aaa";
 // 	char set[] = "a";
 // 	printf("%s\n", ft_strtrim(s1, set));
 // 	return (0);
