@@ -24,7 +24,7 @@ static int	ft_intlen(long int n)
 		n = -n;
 		len++;
 	}
-	while (n > 10)
+	while (n >= 10)
 	{
 		n = n / 10;
 		len++;
@@ -41,6 +41,8 @@ char	*ft_itoa(int n)
 	ln = n;
 	len = ft_intlen(ln);
 	str = (char *)malloc(len + 1);
+	if (str == NULL)
+		return (0);
 	if (ln < 0)
 	{
 		str[0] = '-';
@@ -60,7 +62,7 @@ char	*ft_itoa(int n)
 
 // int	main(void)
 // {
-// 	int n = -15945;
+// 	int n = 10;
 
 // 	printf("%d\n", ft_intlen(n));
 // 	printf("%s\n", ft_itoa(n));
