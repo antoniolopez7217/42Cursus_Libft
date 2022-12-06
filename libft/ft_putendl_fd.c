@@ -1,45 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: antlopez <antlopez@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/04 20:32:43 by antlopez          #+#    #+#             */
-/*   Updated: 2022/12/04 20:32:46 by antlopez         ###   ########.fr       */
+/*   Created: 2022/12/06 21:43:25 by antlopez          #+#    #+#             */
+/*   Updated: 2022/12/06 21:43:28 by antlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+void	ft_putendl_fd(char *s, int fd)
 {
-	char	*substr;
-	size_t	i;
+	int	i;
 
-	if (!s)
-		return (0);
-	if ((size_t)start > ft_strlen(s))
-		return (ft_strdup(""));
-	if (len > (ft_strlen(s) - start))
-		len = ft_strlen(s) - start;
-	substr = (char *)malloc(len + 1);
-	if (substr == NULL)
-		return (0);
-	i = 0;
-	while (i < len)
+	while (s[i])
 	{
-		substr[i] = s[start];
-		start++;
+		write(fd, &s[i], 1);
 		i++;
 	}
-	substr[i] = '\0';
-	return (substr);
+	write(fd, "\n", 1);
 }
 
 // int	main(void)
 // {
-// 	char s[] = "0123456789";
-// 	printf("%s\n", ft_substr(s, 2, 5));
+// 	char	*c = "Hello World";
+// 	int		fd = 1;
+
+// 	ft_putendl_fd(c, fd);
 // 	return (0);
 // }
