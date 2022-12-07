@@ -37,7 +37,7 @@ char	**ft_split(char const *s, char c)
 	size_t	i;
 	size_t	n;
 	size_t	start;
-	
+
 	str = malloc(sizeof(char *) * (ft_wordcount(s, c) + 1));
 	if (str == NULL)
 		return (0);
@@ -57,7 +57,7 @@ char	**ft_split(char const *s, char c)
 			i++;
 	}
 	str[n] = '\0';
-	return (str);	
+	return (str);
 }
 
 // int	main(void)
