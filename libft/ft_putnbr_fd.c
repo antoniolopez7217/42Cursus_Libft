@@ -14,30 +14,21 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	char	p;
+	long int	numb;
 
-	if (n == -2147483648)
+	numb = n;
+	if (numb < 0)
 	{
-		write(fd, "-2147483648", 11);
+		write(fd, "-", 1);
+		numb = numb * (-1);
 	}
-	else
-	{
-		if (n < 0)
-		{
-			write(fd, "-", 1);
-			n = n * (-1);
-		}
-		if (n > 9)
-		{	
-			ft_putnbr_fd(n / 10, fd);
-			ft_putnbr_fd(n % 10, fd);
-		}
-		if (n < 10)
-		{
-			p = n + '0';
-			write(fd, &p, 1);
-		}
+	if (numb > 9)
+	{	
+		ft_putnbr_fd(numb / 10, fd);
+		ft_putnbr_fd(numb % 10, fd);
 	}
+	if (numb < 10)
+		ft_putchar_fd(numb + '0', fd);
 }
 
 // int	main(void)
