@@ -10,29 +10,29 @@ To finish this project it is necessary to provide a .c file for each function cr
 
 ## Libc functions
 
-- [`isalpha`](
-- [`isdigit`](
-- [`isalnum`](
-- [`isascii`](
-- [`isprint`](
-- [`strlen`](
-- [`memset`](
-- [`bzero`](
-- [`memcpy`](
-- [`memmove`](
-- [`strlcpy`](
-- [`strlcat`](
-- [`toupper`](
-- [`tolower`](
-- [`strchr`](
-- [`strrchr`](
-- [`strncmp`](
-- [`memchr`](
-- [`memcmp`](
-- [`strnstr`](
-- [`atoi`](
-- [`calloc`](
-- [`strdup`](
+- [`ft_isalpha`](
+- [`ft_isdigit`](
+- [`ft_isalnum`](
+- [`ft_isascii`](
+- [`ft_isprint`](
+- [`ft_strlen`](
+- [`ft_memset`](
+- [`ft_bzero`](
+- [`ft_memcpy`](
+- [`ft_memmove`](
+- [`ft_strlcpy`](
+- [`ft_strlcat`](
+- [`ft_toupper`](
+- [`ft_tolower`](
+- [`ft_strchr`](
+- [`ft_strrchr`](
+- [`ft_strncmp`](
+- [`ft_memchr`](
+- [`ft_memcmp`](
+- [`ft_strnstr`](
+- [`ft_atoi`](
+- [`ft_calloc`](
+- [`ft_strdup`](
 
 ## Aditional functions
 
