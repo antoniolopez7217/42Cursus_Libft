@@ -50,6 +50,15 @@ To finish this project it is necessary to provide a .c file for each function cr
 
 ## Bonus functions
 
+- [`ft_lstnew`](
+- [`ft_lstadd_front`](
+- [`ft_lstsize`](
+- [`ft_lstlast`](
+- [`ft_lstadd_back`]( 
+- [`ft_lstdelone`]( 
+- [`ft_lstclear`]( 
+- [`ft_lstiter`](
+- [`ft_lstmap`](
 
 ## Useful Links
 
