@@ -1,21 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: antlopez <antlopez@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/10 19:40:12 by antlopez          #+#    #+#             */
-/*   Updated: 2022/12/10 19:40:14 by antlopez         ###   ########.fr       */
+/*   Created: 2022/12/11 11:43:31 by antlopez          #+#    #+#             */
+/*   Updated: 2022/12/11 11:43:33 by antlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	if (*lst)
-		(*ft_lstlast(*lst)).next = new;
-	else
-		*lst = new;
+	while (lst)
+	{
+		f((*lst).content);
+		lst = (*lst).next;
+	}
 }
