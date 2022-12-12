@@ -41,11 +41,11 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_strtrim`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strtrim.c) -> Removes all characters contained in the string 'set' from the beginning and from the end of the string 's1', until a character not belonging to 'set' is found. The resulting string is returned with a `malloc` reservation.
 - [`ft_split`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_split.c) -> Reserves memory with `malloc` for an array of strings resulting from separating the string 's' into substrings using the character 'c' as delimiter. The array must end with a NULL pointer.
 - [`ft_itoa`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_itoa.c) -> Reserves memory with `malloc` and returns a string representing the integer received as argument.
-- [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> 
-- [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> 
+- [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> To each character of the string 's', apply the function 'f' giving as parameters the index within 's' and the character itself. It generates a new string (using `malloc`) with the result of the successive use of 'f'.
+- [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> To each character in the string 's', apply the function 'f' giving as parameters the index within 's' and the address of the character itself, which may be modified if necessary.
 - [`ft_putchar_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putchar_fd.c) -> Displays the character used as parameter.
-- [`ft_putstr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putstr_fd.c) -> Displays the characters of a string one by one.
-- [`ft_putendl_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putendl_fd.c) -> 
+- [`ft_putstr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putstr_fd.c) -> Displays the characters of a string.
+- [`ft_putendl_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putendl_fd.c) -> Displays the characters of a string with a line break at the end.
 - [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> Displays the number used as parameter.
 
 ## Bonus functions
