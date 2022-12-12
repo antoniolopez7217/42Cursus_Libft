@@ -10,11 +10,11 @@ To finish this project it is necessary to provide a .c file for each function cr
 
 ## Libc functions
 
-- [`ft_isalpha`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalpha.c) -> 
-- [`ft_isdigit`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isdigit.c) -> 
-- [`ft_isalnum`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalnum.c) -> 
+- [`ft_isalpha`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalpha.c) -> Checks if the character is alphabetic.
+- [`ft_isdigit`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isdigit.c) -> Checks if the character is a digit.
+- [`ft_isalnum`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalnum.c) -> Checks if the character is alphanumeric.
 - [`ft_isascii`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isascii.c) -> 
-- [`ft_isprint`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isprint.c) -> 
+- [`ft_isprint`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isprint.c) -> Checks if the character is printable.
 - [`ft_strlen`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlen.c) -> Displays the number of characters in a string.
 - [`ft_memset`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memset.c) -> 
 - [`ft_bzero`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_bzero.c) -> 
@@ -22,8 +22,8 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_memmove`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memmove.c) -> 
 - [`ft_strlcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcpy.c) -> Copies a string of characters (including the null character), but no more than n - 1 characters.
 - [`ft_strlcat`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcat.c) -> Concatenate two strings, but no more than n - 1 characters.
-- [`ft_toupper`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_toupper.c) -> 
-- [`ft_tolower`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_tolower.c) -> 
+- [`ft_toupper`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_toupper.c) -> Converts the character to uppercase.
+- [`ft_tolower`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_tolower.c) -> Converts the character to lowercase.
 - [`ft_strchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strchr.c) -> 
 - [`ft_strrchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strrchr.c) -> 
 - [`ft_strncmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strncmp.c) -> Compares two strings, but no more than the first n characters.
