@@ -15,22 +15,22 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_isalnum`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalnum.c) -> 
 - [`ft_isascii`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isascii.c) -> 
 - [`ft_isprint`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isprint.c) -> 
-- [`ft_strlen`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlen.c) -> 
+- [`ft_strlen`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlen.c) -> Displays the number of characters in a string.
 - [`ft_memset`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memset.c) -> 
 - [`ft_bzero`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_bzero.c) -> 
 - [`ft_memcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcpy.c) -> 
 - [`ft_memmove`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memmove.c) -> 
-- [`ft_strlcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcpy.c) -> 
-- [`ft_strlcat`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcat.c) -> 
+- [`ft_strlcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcpy.c) -> Copies a string of characters (including the null character), but no more than n - 1 characters.
+- [`ft_strlcat`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcat.c) -> Concatenate two strings, but no more than n - 1 characters.
 - [`ft_toupper`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_toupper.c) -> 
 - [`ft_tolower`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_tolower.c) -> 
 - [`ft_strchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strchr.c) -> 
 - [`ft_strrchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strrchr.c) -> 
-- [`ft_strncmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strncmp.c) -> 
+- [`ft_strncmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strncmp.c) -> Compares two strings, but no more than the first n characters.
 - [`ft_memchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memchr.c) -> 
 - [`ft_memcmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcmp.c) -> 
 - [`ft_strnstr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strnstr.c) -> 
-- [`ft_atoi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_atoi.c) -> 
+- [`ft_atoi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_atoi.c) -> Converts the beginning of a string to an integer.
 - [`ft_calloc`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_calloc.c) -> 
 - [`ft_strdup`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strdup.c) -> 
 
@@ -43,10 +43,10 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_itoa`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_itoa.c) -> 
 - [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> 
 - [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> 
-- [`ft_putchar_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putchar_fd.c) -> 
-- [`ft_putstr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putstr_fd.c) -> 
+- [`ft_putchar_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putchar_fd.c) -> Displays the character used as parameter.
+- [`ft_putstr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putstr_fd.c) -> Displays the characters of a string one by one.
 - [`ft_putendl_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putendl_fd.c) -> 
-- [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> 
+- [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> Displays the number used as parameter.
 
 ## Bonus functions
 
