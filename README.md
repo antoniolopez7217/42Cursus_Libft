@@ -13,7 +13,7 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_isalpha`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalpha.c) -> Checks if the character is alphabetic.
 - [`ft_isdigit`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isdigit.c) -> Checks if the character is a digit.
 - [`ft_isalnum`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalnum.c) -> Checks if the character is alphanumeric.
-- [`ft_isascii`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isascii.c) -> 
+- [`ft_isascii`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isascii.c) -> Checks if the character is ASCII.
 - [`ft_isprint`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isprint.c) -> Checks if the character is printable.
 - [`ft_strlen`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlen.c) -> Displays the number of characters in a string.
 - [`ft_memset`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memset.c) -> 
@@ -36,11 +36,11 @@ To finish this project it is necessary to provide a .c file for each function cr
 
 ## Aditional functions
 
-- [`ft_substr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_substr.c) -> 
-- [`ft_strjoin`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strjoin.c) -> 
-- [`ft_strtrim`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strtrim.c) -> 
-- [`ft_split`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_split.c) -> 
-- [`ft_itoa`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_itoa.c) -> 
+- [`ft_substr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_substr.c) -> Reserves memory with `malloc` and returns a substring whose start and maximum length are given parameters.
+- [`ft_strjoin`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strjoin.c) -> Reserves memory with `malloc` and returns the concatenation of two strings.
+- [`ft_strtrim`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strtrim.c) -> Removes all characters contained in the string 'set' from the beginning and from the end of the string 's1', until a character not belonging to 'set' is found. The resulting string is returned with a `malloc` reservation.
+- [`ft_split`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_split.c) -> Reserves memory with `malloc` for an array of strings resulting from separating the string 's' into substrings using the character 'c' as delimiter. The array must end with a NULL pointer.
+- [`ft_itoa`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_itoa.c) -> Reserves memory with `malloc` and returns a string representing the integer received as argument.
 - [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> 
 - [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> 
 - [`ft_putchar_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putchar_fd.c) -> Displays the character used as parameter.
