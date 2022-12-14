@@ -49,6 +49,8 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> Displays the number used as parameter.
 
 ## Bonus functions
+PONER _BONUS.c Y MODIFICAR EL HEADER DE CADA UNA DE LAS FUNCIONES Y SU MAKEFILE
+TAMBIEN MODIFICAR LOS LINK DE AQUI
 
 - [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew.c) -> 
 - [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front.c) -> 
