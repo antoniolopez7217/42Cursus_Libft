@@ -26,12 +26,12 @@ SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
 - [`ft_strlcat`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcat.c) -> Concatenate two strings, but no more than n - 1 characters.
 - [`ft_toupper`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_toupper.c) -> Converts the character to uppercase.
 - [`ft_tolower`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_tolower.c) -> Converts the character to lowercase.
-- [`ft_strchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strchr.c) -> 
-- [`ft_strrchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strrchr.c) -> 
+- [`ft_strchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strchr.c) -> Locates the first occurrence of c in a string.
+- [`ft_strrchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strrchr.c) -> Locates the last occurrence of c in a string.
 - [`ft_strncmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strncmp.c) -> Compares two strings, but no more than the first n characters.
-- [`ft_memchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memchr.c) -> Locates the first occurrence of c in the initial n bytes of the object pointed to by s.
+- [`ft_memchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memchr.c) -> Locates the first occurrence of c in the initial n bytes of an object.
 - [`ft_memcmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcmp.c) -> Compares the first n bytes of two objects.
-- [`ft_strnstr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strnstr.c) -> 
+- [`ft_strnstr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strnstr.c) -> Locate the first occurrence of a substring in a string.
 - [`ft_atoi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_atoi.c) -> Converts the beginning of a string to an integer.
 - [`ft_calloc`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_calloc.c) -> Allocates memory with `malloc` for an array and returns a pointer to the allocated memory. The memory is set to zero.
 - [`ft_strdup`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strdup.c) -> Returns a pointer to a new string which is a duplicate of the string. The memory is reserved with `malloc`.
