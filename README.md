@@ -10,16 +10,18 @@ To finish this project it is necessary to provide a .c file for each function cr
 
 ## Libc functions
 
+SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
+
 - [`ft_isalpha`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalpha.c) -> Checks if the character is alphabetic.
 - [`ft_isdigit`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isdigit.c) -> Checks if the character is a digit.
 - [`ft_isalnum`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalnum.c) -> Checks if the character is alphanumeric.
 - [`ft_isascii`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isascii.c) -> Checks if the character is ASCII.
 - [`ft_isprint`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isprint.c) -> Checks if the character is printable.
 - [`ft_strlen`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlen.c) -> Displays the number of characters in a string.
-- [`ft_memset`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memset.c) -> 
-- [`ft_bzero`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_bzero.c) -> 
-- [`ft_memcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcpy.c) -> 
-- [`ft_memmove`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memmove.c) -> 
+- [`ft_memset`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memset.c) -> Fills the first n bytes of the memory area with the constant byte c.
+- [`ft_bzero`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_bzero.c) -> Places n zero-valued bytes in the area pointed to by s.
+- [`ft_memcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcpy.c) -> Copies n bytes from a memory area. The memory areas must not overlap.
+- [`ft_memmove`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memmove.c) -> Copies n bytes from a memory area. The memory areas may overlap.
 - [`ft_strlcpy`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcpy.c) -> Copies a string of characters (including the null character), but no more than n - 1 characters.
 - [`ft_strlcat`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strlcat.c) -> Concatenate two strings, but no more than n - 1 characters.
 - [`ft_toupper`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_toupper.c) -> Converts the character to uppercase.
@@ -27,12 +29,12 @@ To finish this project it is necessary to provide a .c file for each function cr
 - [`ft_strchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strchr.c) -> 
 - [`ft_strrchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strrchr.c) -> 
 - [`ft_strncmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strncmp.c) -> Compares two strings, but no more than the first n characters.
-- [`ft_memchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memchr.c) -> 
-- [`ft_memcmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcmp.c) -> 
+- [`ft_memchr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memchr.c) -> Locates the first occurrence of c in the initial n bytes of the object pointed to by s.
+- [`ft_memcmp`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_memcmp.c) -> Compares the first n bytes of two objects.
 - [`ft_strnstr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strnstr.c) -> 
 - [`ft_atoi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_atoi.c) -> Converts the beginning of a string to an integer.
-- [`ft_calloc`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_calloc.c) -> 
-- [`ft_strdup`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strdup.c) -> 
+- [`ft_calloc`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_calloc.c) -> Allocates memory with `malloc` for an array and returns a pointer to the allocated memory. The memory is set to zero.
+- [`ft_strdup`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strdup.c) -> Returns a pointer to a new string which is a duplicate of the string. The memory is reserved with `malloc`.
 
 ## Aditional functions
 
