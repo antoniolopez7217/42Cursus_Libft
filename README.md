@@ -53,7 +53,17 @@ SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
 ## Bonus functions
 PONER _BONUS.c Y MODIFICAR EL HEADER DE CADA UNA DE LAS FUNCIONES Y SU MAKEFILE
 TAMBIEN MODIFICAR LOS LINK DE AQUI
-AÑADIR AQUI LA ESTRUCTURA DE LA LISTA
+
+
+The structure to represent a list node will be:
+
+```C
+typedef struct  s_list
+{
+  void          *content;
+  struct s_list *next;
+}             t_list;
+```
 
 - [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew.c) -> Create a new node using `malloc`. The variable 'content' is initialized with the content of the parameter. The variable 'next', with NULL.
 - [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front.c) -> Adds the node 'new' to the beginning of the list.
@@ -67,4 +77,4 @@ AÑADIR AQUI LA ESTRUCTURA DE LA LISTA
 
 ## Useful Links
 
-- [Francinette](https://github.com/xicodomingues/francinette)
+- How to test the project? -> [Francinette](https://github.com/xicodomingues/francinette)
