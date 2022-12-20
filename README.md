@@ -43,8 +43,8 @@ SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
 - [`ft_strtrim`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strtrim.c) -> Removes all characters contained in the string 'set' from the beginning and from the end of the string 's1', until a character not belonging to 'set' is found. The resulting string is returned with a `malloc` reservation.
 - [`ft_split`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_split.c) -> Reserves memory with `malloc` for an array of strings resulting from separating the string 's' into substrings using the character 'c' as delimiter. The array must end with a NULL pointer.
 - [`ft_itoa`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_itoa.c) -> Reserves memory with `malloc` and returns a string representing the integer received as argument.
-- [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> To each character of the string 's', apply the function 'f' giving as parameters the index within 's' and the character itself. It generates a new string (using `malloc`) with the result of the successive use of 'f'.
-- [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> To each character in the string 's', apply the function 'f' giving as parameters the index within 's' and the address of the character itself, which may be modified if necessary.
+- [`ft_strmapi`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strmapi.c) -> To each character of the string 's', apply the function `f` giving as parameters the index within 's' and the character itself. It generates a new string (using `malloc`) with the result of the successive use of `f`.
+- [`ft_striteri`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_striteri.c) -> To each character in the string 's', apply the function `f` giving as parameters the index within 's' and the address of the character itself, which may be modified if necessary.
 - [`ft_putchar_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putchar_fd.c) -> Displays the character used as parameter.
 - [`ft_putstr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putstr_fd.c) -> Displays the characters of a string.
 - [`ft_putendl_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putendl_fd.c) -> Displays the characters of a string with a line break at the end.
@@ -53,16 +53,17 @@ SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
 ## Bonus functions
 PONER _BONUS.c Y MODIFICAR EL HEADER DE CADA UNA DE LAS FUNCIONES Y SU MAKEFILE
 TAMBIEN MODIFICAR LOS LINK DE AQUI
+AÑADIR AQUI LA ESTRUCTURA DE LA LISTA
 
-- [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew.c) -> 
-- [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front.c) -> 
-- [`ft_lstsize`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstsize.c) -> 
-- [`ft_lstlast`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstlast.c) -> 
-- [`ft_lstadd_back`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_back.c) -> 
-- [`ft_lstdelone`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstdelone.c) -> 
-- [`ft_lstclear`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstclear.c) -> 
-- [`ft_lstiter`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstiter.c) -> 
-- [`ft_lstmap`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstmap.c) -> 
+- [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew.c) -> Create a new node using `malloc`. The variable 'content' is initialized with the content of the parameter. The variable 'next', with NULL.
+- [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front.c) -> Adds the node 'new' to the beginning of the list.
+- [`ft_lstsize`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstsize.c) -> Counts the number of nodes in a list.
+- [`ft_lstlast`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstlast.c) -> Returns the last node in the list.
+- [`ft_lstadd_back`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_back.c) -> Adds the node 'new' to the end of the list.
+- [`ft_lstdelone`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstdelone.c) -> Takes as parameter a node and frees the memory of the content using the function `del` given as parameter, in addition to freeing the node. The memory of 'next' must not be freed.
+- [`ft_lstclear`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstclear.c) -> Removes and frees the given node and all consecutive nodes, using the `del` and `free` function. At the end, the pointer to the list must be NULL.
+- [`ft_lstiter`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstiter.c) -> Iterates the list and apply the `f` function on the content of each node.
+- [`ft_lstmap`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstmap.c) -> Iterates the list and applies the function `f` to the content of each node. It creates a list resulting from the correct and successive application of the function `f` on each node. The `del` function is used to remove the contents of a node.
 
 ## Useful Links
 
