@@ -78,3 +78,6 @@ typedef struct  s_list
 ## Useful Links
 
 - How to test the project? -> [Francinette](https://github.com/xicodomingues/francinette)
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/antoniolopezchamorro)
