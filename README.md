@@ -65,15 +65,15 @@ typedef struct  s_list
 }             t_list;
 ```
 
-- [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew.c) -> Create a new node using `malloc`. The variable 'content' is initialized with the content of the parameter. The variable 'next', with NULL.
-- [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front.c) -> Adds the node 'new' to the beginning of the list.
-- [`ft_lstsize`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstsize.c) -> Counts the number of nodes in a list.
-- [`ft_lstlast`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstlast.c) -> Returns the last node in the list.
-- [`ft_lstadd_back`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_back.c) -> Adds the node 'new' to the end of the list.
-- [`ft_lstdelone`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstdelone.c) -> Takes as parameter a node and frees the memory of the content using the function `del` given as parameter, in addition to freeing the node. The memory of 'next' must not be freed.
-- [`ft_lstclear`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstclear.c) -> Removes and frees the given node and all consecutive nodes, using the `del` and `free` function. At the end, the pointer to the list must be NULL.
-- [`ft_lstiter`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstiter.c) -> Iterates the list and apply the `f` function on the content of each node.
-- [`ft_lstmap`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstmap.c) -> Iterates the list and applies the function `f` to the content of each node. It creates a list resulting from the correct and successive application of the function `f` on each node. The `del` function is used to remove the contents of a node.
+- [`ft_lstnew`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstnew_bonus.c) -> Create a new node using `malloc`. The variable 'content' is initialized with the content of the parameter. The variable 'next', with NULL.
+- [`ft_lstadd_front`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_front_bonus.c) -> Adds the node 'new' to the beginning of the list.
+- [`ft_lstsize`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstsize_bonus.c) -> Counts the number of nodes in a list.
+- [`ft_lstlast`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstlast_bonus.c) -> Returns the last node in the list.
+- [`ft_lstadd_back`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstadd_back_bonus.c) -> Adds the node 'new' to the end of the list.
+- [`ft_lstdelone`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstdelone_bonus.c) -> Takes as parameter a node and frees the memory of the content using the function `del` given as parameter, in addition to freeing the node. The memory of 'next' must not be freed.
+- [`ft_lstclear`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstclear_bonus.c) -> Removes and frees the given node and all consecutive nodes, using the `del` and `free` function. At the end, the pointer to the list must be NULL.
+- [`ft_lstiter`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstiter_bonus.c) -> Iterates the list and apply the `f` function on the content of each node.
+- [`ft_lstmap`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstmap_bonus.c) -> Iterates the list and applies the function `f` to the content of each node. It creates a list resulting from the correct and successive application of the function `f` on each node. The `del` function is used to remove the contents of a node.
 
 ## Useful Links
 
