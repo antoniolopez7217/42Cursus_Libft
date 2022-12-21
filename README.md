@@ -51,9 +51,6 @@ SEPARAR EN LIBRERIAS A LAS QUE PERTENECE CADA FUNCION CON ###
 - [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> Displays the number used as parameter.
 
 ## Bonus functions
-PONER _BONUS.c Y MODIFICAR EL HEADER DE CADA UNA DE LAS FUNCIONES Y SU MAKEFILE
-TAMBIEN MODIFICAR LOS LINK DE AQUI
-
 
 The structure to represent a list node will be:
 
