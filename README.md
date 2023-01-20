@@ -4,7 +4,7 @@ First project of the 42 Cursus that consists of the creation of a library that w
 
 To finish this project it is necessary to provide a .c file for each function created, an .h file containing all the headers and a Makefile that will compile the source files to the required output with the -Wall, -Werror and -Wextra flags.
 
-## How to use it?
+## :hammer_and_wrench: How to use it?
 
 ### 1. Compiling the library
 
@@ -42,7 +42,7 @@ cc -Wall -Wextra -Werror main.c libft.a
 ```
 
 
-## Libc functions
+## :computer: Libc functions
 
 ### <ctype.h>
 - [`ft_isalpha`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_isalpha.c) -> Checks if the character is alphabetic.
@@ -76,7 +76,7 @@ cc -Wall -Wextra -Werror main.c libft.a
 - [`ft_calloc`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_calloc.c) -> Allocates memory with `malloc` for an array and returns a pointer to the allocated memory. The memory is set to zero.
 
 
-## Aditional functions
+## :desktop_computer: Aditional functions
 
 - [`ft_substr`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_substr.c) -> Reserves memory with `malloc` and returns a substring whose start and maximum length are given parameters.
 - [`ft_strjoin`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_strjoin.c) -> Reserves memory with `malloc` and returns the concatenation of two strings.
@@ -90,7 +90,7 @@ cc -Wall -Wextra -Werror main.c libft.a
 - [`ft_putendl_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putendl_fd.c) -> Displays the characters of a string with a line break at the end.
 - [`ft_putnbr_fd`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_putnbr_fd.c) -> Displays the number used as parameter.
 
-## Bonus functions
+## :chart_with_upwards_trend: Bonus functions
 
 The structure to represent a list node will be:
 
@@ -112,7 +112,7 @@ typedef struct  s_list
 - [`ft_lstiter`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstiter_bonus.c) -> Iterates the list and apply the `f` function on the content of each node.
 - [`ft_lstmap`](https://github.com/antoniolopez7217/42Cursus_Libft/blob/main/libft/ft_lstmap_bonus.c) -> Iterates the list and applies the function `f` to the content of each node. It creates a list resulting from the correct and successive application of the function `f` on each node. The `del` function is used to remove the contents of a node.
 
-## Useful Links
+## :bulb: Useful Links
 
 - How to test the project? -> [Francinette](https://github.com/xicodomingues/francinette)
 
